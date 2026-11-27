@@ -876,11 +876,17 @@ body{overflow-x:clip}
 .cv-placeholder p{font-size:12px;margin:0}.cv-download{font-size:12px;color:#222;text-decoration:none;border-bottom:1px solid #222;padding:4px 0;white-space:nowrap;transition:opacity .25s ease}.cv-download:hover{opacity:.55}.cv-download span{font-size:12px;letter-spacing:0}.cv-download-secondary{color:#777;border-color:#bbb}
 @media(max-width:760px){.skills-section{padding-top:70px;padding-bottom:75px}.skills-tools-grid{grid-template-columns:1fr;gap:48px}.skills-heading{margin-bottom:38px}.skills-group{grid-template-columns:1fr;gap:9px;padding:17px 0}.cv-placeholder{margin-top:45px;flex-wrap:wrap;justify-content:flex-start;gap:14px}.cv-placeholder p{flex-basis:100%;order:3}}
 @media(prefers-reduced-motion:reduce){.header-cv,.tool-tags span{transition:none}}
-/* Footer — white text */
-footer,
-footer a,
-footer span,
-footer p,
-footer strong {
+nex-page footer,
+.nex-page footer a,
+.nex-page footer span,
+.nex-page footer p,
+.nex-page footer strong {
+  color: #ffffff !important;
+}
+/* Only NexBank footer — white */
+.nex-page .site-footer .wordmark,
+.nex-page .site-footer .wordmark span,
+.nex-page .site-footer > span,
+.nex-page .site-footer > a:last-child {
   color: #ffffff !important;
 }
