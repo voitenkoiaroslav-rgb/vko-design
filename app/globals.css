@@ -425,16 +425,25 @@ a{color:inherit;text-decoration:none}
 .nex-screen-device img{height:100%!important;width:auto!important;max-width:100%!important;object-fit:contain!important;transform:none!important}
 .nex-screen-card:hover .nex-screen-device img{transform:scale(1.025)!important}
 .nex-screen-card-chart .nex-screen-device img{transform:none!important}.nex-screen-card-chart:hover .nex-screen-device img{transform:scale(1.025)!important}
-.nex-brand-grid article>div{background:radial-gradient(ellipse at 50% 58%,rgba(65,105,190,.18),transparent 52%)!important;border:0!important;border-radius:0!important;box-shadow:none!important;overflow:visible!important}
-.nex-brand-grid article>div:before{inset:-20%;opacity:.55}
-.nex-brand-grid article>div:after{background:rgba(65,105,190,.2)!important;bottom:8%;filter:blur(35px)!important}
-.nex-brand-grid img{object-fit:contain!important;object-position:center!important;filter:drop-shadow(0 22px 30px rgba(0,0,0,.42))!important}
-.nex-brand-grid article:nth-child(3)>div{padding:12px!important}
-.nex-brand-grid article:nth-child(3) img{width:100%!important;max-width:560px!important;margin-inline:auto!important;object-fit:contain!important;object-position:center!important}
-.nex-logo-panel{background:radial-gradient(ellipse at 50% 55%,rgba(95,132,223,.25),transparent 44%)!important;border:0!important;box-shadow:none!important}
-@media(max-width:1000px){.nex-screen-device{height:390px!important}}
-@media(max-width:640px){.nex-cover{aspect-ratio:1900/1080!important}.nex-cover>img{object-fit:contain!important}.nex-screen-device{height:310px!important}.nex-screen-card-chart .nex-screen-device img{transform:none!important}.nex-screen-card-chart:hover .nex-screen-device img{transform:scale(1.025)!important}.nex-brand-grid article>div{height:280px!important}}
-@media(prefers-reduced-motion:reduce){.nex-cover>img{animation:none!important}}
+.nex-brand-grid article>div{
+  background:#fff!important;
+  border:1px solid #e8e8e8!important;
+  border-radius:12px!important;
+  box-shadow:none!important;
+  overflow:hidden!important;
+}
+
+.nex-brand-grid article>div:before,
+.nex-brand-grid article>div:after{
+  content:none!important;
+  display:none!important;
+}
+
+.nex-brand-grid img{
+  object-fit:contain!important;
+  object-position:center!important;
+  filter:none!important;
+}
 
 /* NexBank screen 03: source image had excessive empty black canvas. The asset is cropped to the device bounds so its phone matches the other screens without CSS scaling. */
 .nex-screen-card-chart .nex-screen-device img,
