@@ -525,7 +525,7 @@ a{color:inherit;text-decoration:none}
 .langway-browser-screen img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;object-position:top center}
 .langway-screen-caption{margin-top:18px}
 .langway-footer,.langway-footer .wordmark,.langway-footer .wordmark span,.langway-footer>span,.langway-footer>a{color:#FFC839!important}
-.langway-footer{border-color:#FFC839!important}
+.langway-footer{border-color:#ffffff!important}
 @media(max-width:760px){.langway-desktop-grid{grid-template-columns:minmax(0,1fr);gap:36px}.langway-browser{padding:7px}.langway-browser-screen{padding:0}}
 
 /* Langway: editorial full-page showcase — preserve source resolution and proportions */
